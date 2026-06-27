@@ -1,0 +1,109 @@
+body {
+    background: #0f172a;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    color: white;
+    animation: fadeIn 1.5s ease-in;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* SEARCH BOX */
+.hero input {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+/* BUTTON */
+.hero button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #0f172a;
+    color: white;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: white;
+    color: black;
+}
+
+/* CARD DESIGN */
+.card {
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #1e293b;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* CARD TEXT */
+.card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+}
